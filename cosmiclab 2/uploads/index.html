@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cosmic.lab — Plataformas Web a Medida | Chile</title>
+  <meta name="description" content="Estudio de tecnología web fundado por dos profesionales chilenas. Desarrollamos plataformas web a medida con arquitectura real, lógica personalizada y SEO desde la base." />
+  <meta name="keywords" content="desarrollo web chile, plataformas web a medida, diseño web profesional, e-commerce chile, SEO técnico, páginas web empresas regionales" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://cosmiclab.cl/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cosmiclab.cl/" />
+  <meta property="og:title" content="cosmic.lab — Plataformas Web a Medida" />
+  <meta property="og:description" content="Diseño premium + arquitectura SEO + lógica personalizada para proyectos que necesitan más que una página bonita." />
+  <meta property="og:image" content="https://cosmiclab.cl/assets/img/og-image.jpg" />
+  <meta property="og:locale" content="es_CL" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="cosmic.lab — Plataformas Web a Medida" />
+  <meta name="twitter:description" content="Plataformas web que operan, escalan y convierten." />
+
+  <!-- Schema: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "cosmic.lab",
+    "url": "https://cosmiclab.cl",
+    "logo": "https://cosmiclab.cl/assets/img/logo.svg",
+    "description": "Estudio de tecnología web especializado en plataformas a medida, e-commerce y SEO técnico en Chile.",
+    "foundingDate": "2024",
+    "founders": [
+      { "@type": "Person", "name": "Vanessa Méndez" },
+      { "@type": "Person", "name": "Catherine Rebolledo" }
+    ],
+    "areaServed": "CL",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "hola@cosmiclab.cl"
+    }
+  }
+  </script>
+
+  <!-- Schema: Service -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Desarrollo de Plataformas Web a Medida",
+    "provider": { "@type": "Organization", "name": "cosmic.lab" },
+    "areaServed": "CL",
+    "description": "Plataformas web personalizadas con CMS, roles de usuario, SEO técnico avanzado y arquitectura escalable.",
+    "offers": [
+      { "@type": "Offer", "name": "Lanzamiento", "priceCurrency": "CLP", "price": "350000" },
+      { "@type": "Offer", "name": "Presencia Profesional", "priceCurrency": "CLP", "price": "800000" },
+      { "@type": "Offer", "name": "Plataforma a Medida", "priceCurrency": "CLP", "price": "2000000" }
+    ]
+  }
+  </script>
+
+  <!-- Schema: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿En qué se diferencia cosmic.lab de otras agencias web?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Somos un estudio pequeño con visión técnica y operacional real. No usamos templates genéricos ni subcontratamos — construimos cada plataforma desde cero con arquitectura pensada para tu negocio específico." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Trabajan con clientes fuera de Santiago?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sí, trabajamos 100% remoto con clientes en todo Chile y en el extranjero." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué necesito para empezar?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Solo agendar una consulta gratuita de 30 minutos. Nosotras hacemos las preguntas correctas para entender tu proyecto." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto tiempo tarda un proyecto?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Desde 7 días para una landing hasta varios meses para plataformas complejas. Te damos un plazo exacto en la propuesta." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Puedo editar mi web después de entregada?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sí. En proyectos con CMS te entregamos capacitación y documentación para que puedas gestionar el contenido de forma autónoma." }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Navegación principal">
+    <div class="nav__inner">
+      <a href="#inicio" class="nav__logo" aria-label="cosmic.lab — inicio">
+        <span class="logo__icon" aria-hidden="true">✦</span>
+        <span class="logo__text">cosmic<span>.lab</span></span>
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotras">Nosotras</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#contacto" class="nav__cta">Agendar consulta</a></li>
+      </ul>
+      <button class="nav__burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="inicio" aria-labelledby="hero-heading">
+    <div class="hero__bg" aria-hidden="true">
+      <canvas id="starfield"></canvas>
+      <div class="hero__glow hero__glow--violet"></div>
+      <div class="hero__glow hero__glow--cyan"></div>
+    </div>
+    <div class="hero__inner">
+      <div class="hero__badge reveal">
+        <span class="badge__dot" aria-hidden="true"></span>
+        Estudio de tecnología web · Chile
+      </div>
+      <h1 class="hero__headline reveal" id="hero-heading">
+        Plataformas web que<br />
+        <em>operan, escalan</em><br />
+        y convierten.
+      </h1>
+      <p class="hero__sub reveal">
+        Diseño premium + arquitectura SEO + lógica personalizada.<br />
+        Para proyectos que necesitan más que una página bonita.
+      </p>
+      <div class="hero__actions reveal">
+        <a href="#contacto" class="btn btn--primary">Agenda una consulta gratuita</a>
+        <a href="#portfolio" class="btn btn--ghost">Ver nuestro trabajo →</a>
+      </div>
+      <div class="hero__stats reveal">
+        <div class="stat">
+          <span class="stat__num">+10</span>
+          <span class="stat__label">Proyectos entregados</span>
+        </div>
+        <div class="stat__divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat__num">&lt;3s</span>
+          <span class="stat__label">Carga garantizada</span>
+        </div>
+        <div class="stat__divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat__num">100%</span>
+          <span class="stat__label">Código a medida</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <div class="scroll__line"></div>
+    </div>
+  </section>
+
+  <!-- ========== PRUEBA SOCIAL (BANDA) ========== -->
+  <section class="social-proof" aria-label="Prueba social">
+    <div class="container">
+      <div class="social-proof__inner">
+        <p class="social-proof__label">Tecnología que usamos</p>
+        <div class="social-proof__logos" aria-hidden="true">
+          <span>Shopify</span>
+          <span class="proof-dot">✦</span>
+          <span>HTML / CSS / JS</span>
+          <span class="proof-dot">✦</span>
+          <span>WordPress</span>
+          <span class="proof-dot">✦</span>
+          <span>SEO Técnico</span>
+          <span class="proof-dot">✦</span>
+          <span>Schema Markup</span>
+          <span class="proof-dot">✦</span>
+          <span>Core Web Vitals</span>
+          <span class="proof-dot">✦</span>
+          <span>Shopify Liquid</span>
+          <span class="proof-dot">✦</span>
+          <span>GitHub Pages</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ¿POR QUÉ UNA PLATAFORMA? ========== -->
+  <section class="why" id="por-que" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="section-tag reveal">¿Por qué necesitas una plataforma?</div>
+      <h2 class="section-title reveal" id="why-heading">
+        Tu web debería trabajar<br /><em>para ti, no al revés.</em>
+      </h2>
+      <div class="why__grid">
+        <article class="why__card reveal" tabindex="0">
+          <div class="why__icon" aria-hidden="true">🏢</div>
+          <h3>Empresa o consultora</h3>
+          <p>Una web institucional mal construida pierde clientes antes de que te llamen. Necesitas arquitectura que transmita credibilidad y convierta visitas en consultas reales.</p>
+        </article>
+        <article class="why__card reveal" tabindex="0">
+          <div class="why__icon" aria-hidden="true">🛒</div>
+          <h3>Tienda online</h3>
+          <p>El template estándar te limita. Si tu e-commerce tiene lógica propia, integraciones o experiencias de compra únicas, necesitas código a medida.</p>
+        </article>
+        <article class="why__card reveal" tabindex="0">
+          <div class="why__icon" aria-hidden="true">📰</div>
+          <h3>Medio de comunicación</h3>
+          <p>Un CMS propio con flujo editorial, roles y SEO estructural es la diferencia entre un blog y una plataforma de contenido que posiciona.</p>
+        </article>
+        <article class="why__card reveal" tabindex="0">
+          <div class="why__icon" aria-hidden="true">🌎</div>
+          <h3>Empresa regional</h3>
+          <p>Estar fuera de Santiago no significa tener menos presencia digital. Con SEO local y diseño accesible, tu negocio puede competir a nivel nacional.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section class="services" id="servicios" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-tag reveal">Servicios</div>
+      <h2 class="section-title reveal" id="services-heading">
+        Lo que <em>construimos</em>
+      </h2>
+      <div class="services__grid">
+        <article class="service-card reveal" tabindex="0">
+          <span class="service-card__icon" aria-hidden="true">📰</span>
+          <h3>Portales editoriales con CMS</h3>
+          <p>Medios digitales y plataformas de contenido con múltiples autores, flujo editorial y SEO arquitectural.</p>
+        </article>
+        <article class="service-card reveal" tabindex="0">
+          <span class="service-card__icon" aria-hidden="true">🏢</span>
+          <h3>Webs corporativas e institucionales</h3>
+          <p>Presencia digital profesional con SEO técnico, estructura clara y múltiples puntos de contacto.</p>
+        </article>
+        <article class="service-card reveal" tabindex="0">
+          <span class="service-card__icon" aria-hidden="true">🛒</span>
+          <h3>E-commerce personalizado</h3>
+          <p>Más allá del template: Shopify con Liquid customizado, integraciones y experiencia de compra a medida.</p>
+        </article>
+        <article class="service-card reveal" tabindex="0">
+          <span class="service-card__icon" aria-hidden="true">👥</span>
+          <h3>Plataformas con usuarios y roles</h3>
+          <p>Sistemas de acceso, permisos, flujos de aprobación y lógica de negocio personalizada.</p>
+        </article>
+        <article class="service-card reveal" tabindex="0">
+          <span class="service-card__icon" aria-hidden="true">🔒</span>
+          <h3>Portales de membresía</h3>
+          <p>Contenido exclusivo, acceso pagado, comunidades privadas y recursos descargables.</p>
+        </article>
+        <article class="service-card reveal" tabindex="0">
+          <span class="service-card__icon" aria-hidden="true">⚖️</span>
+          <h3>Webs para profesionales</h3>
+          <p>Abogados, consultoras, clínicas, coaches: diseño que transmite confianza y convierte visitas en clientes.</p>
+        </article>
+        <article class="service-card reveal" tabindex="0">
+          <span class="service-card__icon" aria-hidden="true">🌎</span>
+          <h3>Empresas regionales y zona extrema</h3>
+          <p>Presencia digital profesional para negocios fuera de Santiago con foco en SEO local y turismo.</p>
+        </article>
+        <article class="service-card reveal" tabindex="0">
+          <span class="service-card__icon" aria-hidden="true">🚀</span>
+          <h3>Landing pages de alta conversión</h3>
+          <p>Páginas únicas orientadas a captar leads, vender productos o registrar usuarios.</p>
+        </article>
+        <article class="service-card reveal" tabindex="0">
+          <span class="service-card__icon" aria-hidden="true">🔧</span>
+          <h3>Mantención y optimización</h3>
+          <p>Mejora de sitios existentes: velocidad, SEO, diseño y funcionalidades nuevas.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NOSOTRAS ========== -->
+  <section class="about" id="nosotras" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-tag reveal">Quiénes somos</div>
+      <h2 class="section-title reveal" id="about-heading">
+        Dos profesionales.<br /><em>Una obsesión en común.</em>
+      </h2>
+      <p class="about__intro reveal">
+        Somos dos amigas que comparten la misma obsesión: la tecnología bien hecha. Una con años desarrollando tiendas y plataformas e-commerce. La otra, ingeniera en logística con visión de procesos y operaciones digitales. Juntas fundamos <strong>cosmic.lab</strong> para construir plataformas web que no solo se ven bien — están pensadas para funcionar, crecer y trabajar para tu negocio.
+      </p>
+      <div class="about__team">
+        <article class="founder reveal" tabindex="0">
+          <div class="founder__avatar" aria-hidden="true">
+            <div class="avatar__placeholder">VM</div>
+            <div class="avatar__ring"></div>
+          </div>
+          <div class="founder__info">
+            <h3>Vanessa Méndez</h3>
+            <span class="founder__role">Desarrolladora · E-commerce & Plataformas</span>
+            <p>Especialista en Shopify, plataformas digitales, HTML/CSS/JavaScript y arquitecturas web a medida. Creadora de Diario Profesional y LegalDeuda. Construye la lógica que hace que todo funcione.</p>
+            <div class="founder__tags">
+              <span>Shopify Liquid</span>
+              <span>HTML/CSS/JS</span>
+              <span>CMS a medida</span>
+              <span>SEO técnico</span>
+            </div>
+          </div>
+        </article>
+        <article class="founder reveal" tabindex="0">
+          <div class="founder__avatar" aria-hidden="true">
+            <div class="avatar__placeholder">CR</div>
+            <div class="avatar__ring"></div>
+          </div>
+          <div class="founder__info">
+            <h3>Catherine Rebolledo</h3>
+            <span class="founder__role">Ingeniera en Logística · Estrategia & Operaciones</span>
+            <p>Visión estratégica de procesos, operaciones y flujos de negocio digitales. Aporta la lógica operacional que hace que cada plataforma tenga sentido más allá del diseño. El negocio detrás del código.</p>
+            <div class="founder__tags">
+              <span>Procesos digitales</span>
+              <span>Operaciones</span>
+              <span>Estrategia web</span>
+              <span>UX funcional</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== QUOTE IMPACTO ========== -->
+  <section class="impact-quote" aria-label="Nuestra filosofía">
+    <div class="container">
+      <blockquote class="impact-quote__block reveal">
+        <span class="impact-quote__mark" aria-hidden="true">"</span>
+        <p>No construimos páginas. Construimos plataformas que trabajan para tu negocio mientras duermes.</p>
+        <footer>
+          <cite>— cosmic.lab · Santiago, Chile</cite>
+        </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ========== PROCESO ========== -->
+  <section class="process" id="proceso" aria-labelledby="process-heading">
+    <div class="container">
+      <div class="section-tag reveal">Proceso de trabajo</div>
+      <h2 class="section-title reveal" id="process-heading">
+        De la idea a la<br /><em>plataforma en producción.</em>
+      </h2>
+      <div class="process__steps">
+        <article class="step reveal" tabindex="0">
+          <div class="step__num" aria-hidden="true">01</div>
+          <div class="step__content">
+            <h3>Consulta gratuita</h3>
+            <p>30 minutos donde hacemos las preguntas correctas. Entendemos tu negocio, tus usuarios y lo que necesitas que tu web resuelva.</p>
+          </div>
+        </article>
+        <article class="step reveal" tabindex="0">
+          <div class="step__num" aria-hidden="true">02</div>
+          <div class="step__content">
+            <h3>Arquitectura</h3>
+            <p>Definimos la estructura técnica: sitemap, flujos de usuario, lógica de contenidos y estrategia SEO antes de escribir una línea de código.</p>
+          </div>
+        </article>
+        <article class="step reveal" tabindex="0">
+          <div class="step__num" aria-hidden="true">03</div>
+          <div class="step__content">
+            <h3>Diseño</h3>
+            <p>Wireframes y diseño visual coherente con tu identidad. Te mostramos la propuesta antes de desarrollar.</p>
+          </div>
+        </article>
+        <article class="step reveal" tabindex="0">
+          <div class="step__num" aria-hidden="true">04</div>
+          <div class="step__content">
+            <h3>Desarrollo</h3>
+            <p>Código limpio, semántico y optimizado. Sin templates genéricos — cada línea tiene un propósito para tu plataforma.</p>
+          </div>
+        </article>
+        <article class="step reveal" tabindex="0">
+          <div class="step__num" aria-hidden="true">05</div>
+          <div class="step__content">
+            <h3>Entrega y lanzamiento</h3>
+            <p>Deploy, revisión técnica, configuración de analytics y SEO técnico. Te entregamos la plataforma lista para operar.</p>
+          </div>
+        </article>
+        <article class="step reveal" tabindex="0">
+          <div class="step__num" aria-hidden="true">06</div>
+          <div class="step__content">
+            <h3>Soporte y crecimiento</h3>
+            <p>No desaparecemos al entregar. Planes de mantención, capacitación en CMS y soporte técnico prioritario disponibles.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO ========== -->
+  <section class="portfolio" id="portfolio" aria-labelledby="portfolio-heading">
+    <div class="container">
+      <div class="section-tag reveal">Portfolio</div>
+      <h2 class="section-title reveal" id="portfolio-heading">
+        Proyectos <em>reales.</em><br />Resultados reales.
+      </h2>
+
+      <!-- PROYECTO 1: Mindú — imagen izquierda -->
+      <article class="pf-item reveal">
+        <a href="https://vanemendezp.github.io/mindu/" target="_blank" rel="noopener noreferrer" class="pf-item__img-wrap">
+          <img src="assets/img/portfolio/mindu-preview.jpg" alt="Mindú E-commerce" class="pf-item__img" loading="lazy" />
+          <div class="pf-item__overlay"><span>Ver proyecto ↗</span></div>
+        </a>
+        <div class="pf-item__info">
+          <div class="pf-item__meta">
+            <span class="project__type">E-commerce</span>
+            <span class="pf-item__status pf-item__status--dev">En desarrollo</span>
+          </div>
+          <h3 class="pf-item__title">Mindú</h3>
+          <p class="pf-item__desc">Tienda online de moda y joyería artesanal traída directamente desde India. Diseño editorial premium con catálogo, favoritos, carrito y cuotas con Mercado Pago.</p>
+          <ul class="pf-item__features">
+            <li>Catálogo con filtros por categoría</li>
+            <li>Sistema de favoritos y carrito</li>
+            <li>Diseño editorial — imagen sobre texto</li>
+            <li>Cuotas con Mercado Pago integrado</li>
+          </ul>
+          <div class="project__tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub Pages</span>
+          </div>
+          <a href="https://vanemendezp.github.io/mindu/" target="_blank" rel="noopener noreferrer" class="project__link">Ver proyecto ↗</a>
+        </div>
+      </article>
+
+      <!-- PROYECTO 2: Fidamar — imagen derecha -->
+      <article class="pf-item pf-item--reverse reveal">
+        <div class="pf-item__info">
+          <div class="pf-item__meta">
+            <span class="project__type">Portal Multiservicios</span>
+            <span class="pf-item__status pf-item__status--special">Zona Extrema · Aysén</span>
+          </div>
+          <h3 class="pf-item__title">Fidamar</h3>
+          <p class="pf-item__desc">Portal unificado para empresa con 3 rubros en Melinka, Archipiélago de las Guaitecas. Restaurante, hostal y transporte marítimo bajo una sola identidad digital.</p>
+          <ul class="pf-item__features">
+            <li>3 servicios con sección propia</li>
+            <li>SEO local zona extrema de Chile</li>
+            <li>Galería de fotos reales del lugar</li>
+            <li>Optimizado para conectividad limitada</li>
+          </ul>
+          <div class="project__tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub Pages</span>
+          </div>
+          <a href="https://vanemendezp.github.io/Fidamar/" target="_blank" rel="noopener noreferrer" class="project__link">Ver proyecto ↗</a>
+        </div>
+        <a href="https://vanemendezp.github.io/Fidamar/" target="_blank" rel="noopener noreferrer" class="pf-item__img-wrap">
+          <img src="assets/img/portfolio/fidamar-preview.jpg" alt="Fidamar Portal" class="pf-item__img" loading="lazy" />
+          <div class="pf-item__overlay"><span>Ver proyecto ↗</span></div>
+        </a>
+      </article>
+
+      <!-- PROYECTO 3: LegalDeuda — imagen izquierda -->
+      <article class="pf-item reveal">
+        <a href="https://vanemendezp.github.io/legaldeuda2/" target="_blank" rel="noopener noreferrer" class="pf-item__img-wrap">
+          <img src="assets/img/portfolio/legaldeuda-preview.jpg" alt="LegalDeuda.cl" class="pf-item__img" loading="lazy" />
+          <div class="pf-item__overlay"><span>Ver proyecto ↗</span></div>
+        </a>
+        <div class="pf-item__info">
+          <div class="pf-item__meta">
+            <span class="project__type">Web Institucional</span>
+            <span class="pf-item__status pf-item__status--dev">En desarrollo</span>
+          </div>
+          <h3 class="pf-item__title">LegalDeuda.cl</h3>
+          <p class="pf-item__desc">Web para estudio jurídico especializado en defensa de deudores. Diagnóstico interactivo, arquitectura de servicios clara y diseño que transmite confianza desde el primer segundo.</p>
+          <ul class="pf-item__features">
+            <li>Diagnóstico interactivo por situación</li>
+            <li>Arquitectura de servicios jerárquica</li>
+            <li>Diseño que genera credibilidad legal</li>
+            <li>Múltiples canales de contacto directo</li>
+          </ul>
+          <div class="project__tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub Pages</span>
+          </div>
+          <a href="https://vanemendezp.github.io/legaldeuda2/" target="_blank" rel="noopener noreferrer" class="project__link">Ver proyecto ↗</a>
+        </div>
+      </article>
+
+      <!-- PROYECTO 4: Diario Profesional — imagen derecha -->
+      <article class="pf-item pf-item--reverse reveal">
+        <div class="pf-item__info">
+          <div class="pf-item__meta">
+            <span class="project__type">Plataforma Editorial</span>
+            <span class="pf-item__status pf-item__status--dev">En desarrollo</span>
+          </div>
+          <h3 class="pf-item__title">Diario Profesional</h3>
+          <p class="pf-item__desc">Medio digital independiente con CMS propio, 4 roles de usuario y flujo editorial de 6 etapas. Arquitectura SEO pilar-satélite con 8 formatos editoriales distintos.</p>
+          <ul class="pf-item__features">
+            <li>CMS con roles: admin, editor, redactor</li>
+            <li>Flujo editorial de revisión y publicación</li>
+            <li>Arquitectura SEO pilar-satélite</li>
+            <li>8 formatos editoriales distintos</li>
+          </ul>
+          <div class="project__tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub Pages</span>
+          </div>
+          <a href="https://vanemendezp.github.io/Diarioprofesional/" target="_blank" rel="noopener noreferrer" class="project__link">Ver proyecto ↗</a>
+        </div>
+        <a href="https://vanemendezp.github.io/Diarioprofesional/" target="_blank" rel="noopener noreferrer" class="pf-item__img-wrap">
+          <img src="assets/img/portfolio/diario-preview.jpg" alt="Diario Profesional" class="pf-item__img" loading="lazy" />
+          <div class="pf-item__overlay"><span>Ver proyecto ↗</span></div>
+        </a>
+      </article>
+
+      <!-- PROYECTO 4: LegalDeuda — imagen derecha -->
+      <article class="pf-item pf-item--reverse reveal" tabindex="0">
+        <div class="pf-item__info">
+          <div class="pf-item__meta">
+            <span class="project__type">Web Institucional</span>
+            <span class="pf-item__status pf-item__status--dev">En desarrollo</span>
+          </div>
+          <h3 class="pf-item__title">LegalDeuda.cl</h3>
+          <p class="pf-item__desc">Web para estudio de abogados especializado en defensa de deudores. Diseño que genera confianza inmediata, diagnóstico interactivo y múltiples puntos de contacto directo.</p>
+          <ul class="pf-item__features">
+            <li>Diagnóstico interactivo de situación legal</li>
+            <li>Arquitectura de servicios clara y jerarquizada</li>
+            <li>Diseño oscuro que transmite seriedad y confianza</li>
+            <li>500+ casos resueltos como prueba social</li>
+          </ul>
+          <div class="project__tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub Pages</span>
+          </div>
+          <a href="https://vanemendezp.github.io/legaldeuda2/" target="_blank" rel="noopener noreferrer" class="project__link">
+            Ver proyecto <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <a href="https://vanemendezp.github.io/legaldeuda2/" target="_blank" rel="noopener noreferrer" class="pf-item__img-wrap" aria-label="Ver proyecto LegalDeuda">
+          <img src="assets/img/portfolio/legaldeuda-preview.jpg" alt="Vista previa de LegalDeuda.cl — Web para abogados" class="pf-item__img" loading="lazy" />
+          <div class="pf-item__overlay">
+            <span class="pf-item__overlay-text">Ver proyecto ↗</span>
+          </div>
+        </a>
+      </article>
+
+    </div>
+  </section>
+  <section class="pricing" id="precios" aria-labelledby="pricing-heading">
+    <div class="container">
+      <div class="section-tag reveal">Paquetes</div>
+      <h2 class="section-title reveal" id="pricing-heading">
+        Inversión transparente.<br /><em>Sin letra chica.</em>
+      </h2>
+      <div class="pricing__grid">
+
+        <article class="plan reveal" tabindex="0">
+          <div class="plan__icon" aria-hidden="true">🚀</div>
+          <h3 class="plan__name">Lanzamiento</h3>
+          <div class="plan__price">
+            <span class="plan__from">desde</span>
+            <span class="plan__amount">$350.000</span>
+            <span class="plan__currency">CLP</span>
+          </div>
+          <ul class="plan__features" aria-label="Características incluidas">
+            <li>Web corporativa o landing page</li>
+            <li>SEO básico on-page</li>
+            <li>Formulario de contacto + WhatsApp flotante</li>
+            <li>Diseño responsive mobile-first</li>
+            <li>Entrega en 7–10 días hábiles</li>
+          </ul>
+          <a href="#contacto" class="btn btn--outline">Consultar →</a>
+        </article>
+
+        <article class="plan plan--featured reveal" tabindex="0">
+          <div class="plan__badge" aria-label="Más popular">Más elegido</div>
+          <div class="plan__icon" aria-hidden="true">⭐</div>
+          <h3 class="plan__name">Presencia Profesional</h3>
+          <div class="plan__price">
+            <span class="plan__from">desde</span>
+            <span class="plan__amount">$800.000</span>
+            <span class="plan__currency">CLP</span>
+          </div>
+          <ul class="plan__features" aria-label="Características incluidas">
+            <li>Web multipáginas completa (hasta 8 secciones)</li>
+            <li>Blog integrado con CMS editable</li>
+            <li>SEO técnico avanzado: Schema, sitemap, Core Web Vitals</li>
+            <li>Open Graph + redes sociales configuradas</li>
+            <li>Capacitación de uso incluida (1 hora)</li>
+            <li>Entrega en 15–20 días hábiles</li>
+          </ul>
+          <a href="#contacto" class="btn btn--primary">Consultar →</a>
+        </article>
+
+        <article class="plan reveal" tabindex="0">
+          <div class="plan__icon" aria-hidden="true">🌌</div>
+          <h3 class="plan__name">Plataforma a Medida</h3>
+          <div class="plan__price">
+            <span class="plan__from">desde</span>
+            <span class="plan__amount">$2.000.000</span>
+            <span class="plan__currency">CLP</span>
+          </div>
+          <ul class="plan__features" aria-label="Características incluidas">
+            <li>CMS personalizado con roles y permisos</li>
+            <li>Flujo de contenidos y lógica de negocio</li>
+            <li>Arquitectura SEO pilar-satélite</li>
+            <li>Diseño premium editorial o corporativo</li>
+            <li>Integraciones externas (Calendly, CRM, analytics)</li>
+            <li>Soporte post-lanzamiento 30 días incluido</li>
+            <li>Plazo según alcance del proyecto</li>
+          </ul>
+          <a href="#contacto" class="btn btn--outline">Consultar →</a>
+        </article>
+
+      </div>
+
+      <article class="plan plan--maintenance reveal" tabindex="0">
+        <div class="maintenance__left">
+          <div class="plan__icon" aria-hidden="true">🔧</div>
+          <div>
+            <h3 class="plan__name">Mantención Mensual</h3>
+            <p>Para que tu plataforma siga operando al 100% cada mes.</p>
+          </div>
+        </div>
+        <div class="maintenance__features">
+          <span>Hasta 4 cambios de contenido</span>
+          <span>Respaldo mensual</span>
+          <span>Monitoreo SEO y velocidad</span>
+          <span>Soporte técnico prioritario</span>
+        </div>
+        <div class="maintenance__price">
+          <span class="plan__from">desde</span>
+          <span class="plan__amount">$80.000</span>
+          <span class="plan__currency">CLP/mes</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="faq" id="faq" aria-labelledby="faq-heading">
+    <div class="container">
+      <div class="section-tag reveal">Preguntas frecuentes</div>
+      <h2 class="section-title reveal" id="faq-heading">
+        Lo que siempre<br /><em>nos preguntan.</em>
+      </h2>
+      <div class="faq__list">
+
+        <details class="faq__item reveal">
+          <summary class="faq__question">¿En qué se diferencia cosmic.lab de otras agencias web?</summary>
+          <div class="faq__answer">
+            <p>Somos un estudio pequeño con visión técnica y operacional real. No usamos templates genéricos ni subcontratamos — construimos cada plataforma desde cero con arquitectura pensada para tu negocio específico.</p>
+          </div>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary class="faq__question">¿Trabajan con clientes fuera de Santiago?</summary>
+          <div class="faq__answer">
+            <p>Sí, trabajamos 100% remoto con clientes en todo Chile y en el extranjero. El archipiélago de las Guaitecas es prueba de eso.</p>
+          </div>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary class="faq__question">¿Qué necesito para empezar?</summary>
+          <div class="faq__answer">
+            <p>Solo agendar una consulta gratuita de 30 minutos. Nosotras hacemos las preguntas correctas para entender tu proyecto. No necesitas saber de tecnología.</p>
+          </div>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary class="faq__question">¿Cuánto tiempo tarda un proyecto?</summary>
+          <div class="faq__answer">
+            <p>Desde 7 días para una landing hasta varios meses para plataformas complejas. Te damos un plazo exacto en la propuesta, antes de firmar nada.</p>
+          </div>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary class="faq__question">¿Puedo editar mi web después de entregada?</summary>
+          <div class="faq__answer">
+            <p>Sí. En proyectos con CMS te entregamos capacitación y documentación para que puedas gestionar el contenido de forma autónoma. Y si prefieres que lo hagamos nosotras, tienes los planes de mantención.</p>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BLOG ========== -->
+  <section class="blog" id="recursos" aria-labelledby="blog-heading">
+    <div class="container">
+      <div class="section-tag reveal">Recursos & Blog</div>
+      <h2 class="section-title reveal" id="blog-heading">
+        Conocimiento que<br /><em>suma a tu negocio.</em>
+      </h2>
+      <div class="blog__grid">
+        <article class="blog-card reveal" tabindex="0">
+          <div class="blog-card__tag">Precios</div>
+          <h3>¿Cuánto cuesta una página web en Chile en 2026?</h3>
+          <p>Precios reales, rangos honestos y qué incluye cada tipo de proyecto. La guía que nadie más te da.</p>
+          <a href="blog/articulo-1-cuanto-cuesta-pagina-web-chile-2026.html" class="blog-card__link">Leer artículo →</a>
+        </article>
+        <article class="blog-card reveal" tabindex="0">
+          <div class="blog-card__tag">Guía</div>
+          <h3>Cómo elegir la mejor agencia web en Santiago sin caer en trampas</h3>
+          <p>Qué preguntar, qué evitar y cómo comparar propuestas sin ser experto en tecnología.</p>
+          <a href="blog/articulo-2-como-elegir-agencia-web-santiago.html" class="blog-card__link">Leer artículo →</a>
+        </article>
+        <article class="blog-card reveal" tabindex="0">
+          <div class="blog-card__tag">SEO</div>
+          <h3>SEO técnico vs SEO de contenidos: la diferencia que nadie explica bien</h3>
+          <p>Entiende cuál necesitas primero y por qué hacerlo al revés puede costarte meses.</p>
+          <a href="blog/articulo-5-seo-tecnico-vs-seo-contenidos.html" class="blog-card__link">Leer artículo →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NÚMEROS DE IMPACTO ========== -->
+  <section class="numbers" aria-labelledby="numbers-heading">
+    <div class="container">
+      <h2 class="sr-only" id="numbers-heading">Por qué elegirnos</h2>
+      <div class="numbers__grid">
+        <div class="numbers__item reveal">
+          <span class="numbers__num">100%</span>
+          <span class="numbers__label">Código a medida.<br/>Sin templates genéricos.</span>
+        </div>
+        <div class="numbers__divider" aria-hidden="true"></div>
+        <div class="numbers__item reveal">
+          <span class="numbers__num">&lt;3s</span>
+          <span class="numbers__label">Velocidad de carga<br/>garantizada en móvil.</span>
+        </div>
+        <div class="numbers__divider" aria-hidden="true"></div>
+        <div class="numbers__item reveal">
+          <span class="numbers__num">2</span>
+          <span class="numbers__label">Profesionales reales.<br/>Sin intermediarios.</span>
+        </div>
+        <div class="numbers__divider" aria-hidden="true"></div>
+        <div class="numbers__item reveal">
+          <span class="numbers__num">∞</span>
+          <span class="numbers__label">Escalabilidad.<br/>Tu web crece contigo.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO / AGENDA ========== -->
+  <section class="contact" id="contacto" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="contact__left">
+          <div class="section-tag reveal">Agenda / Contacto</div>
+          <h2 class="section-title reveal" id="contact-heading">
+            Hablemos de<br /><em>tu proyecto.</em>
+          </h2>
+          <p class="contact__desc reveal">
+            La consulta inicial es gratuita, dura 30 minutos y nos ayuda a entender exactamente qué necesitas. Sin compromiso, sin tecnicismos innecesarios.
+          </p>
+          <div class="contact__channels reveal">
+            <a href="https://wa.me/56900000000" target="_blank" rel="noopener noreferrer" class="channel channel--whatsapp" aria-label="Contactar por WhatsApp">
+              <span class="channel__icon" aria-hidden="true">💬</span>
+              <div>
+                <span class="channel__label">WhatsApp</span>
+                <span class="channel__val">+56 9 0000 0000</span>
+              </div>
+            </a>
+            <a href="mailto:hola@cosmiclab.cl" class="channel" aria-label="Enviar email a cosmic.lab">
+              <span class="channel__icon" aria-hidden="true">✉️</span>
+              <div>
+                <span class="channel__label">Email</span>
+                <span class="channel__val">hola@cosmiclab.cl</span>
+              </div>
+            </a>
+          </div>
+          <!-- Calendly embed placeholder -->
+          <div class="calendly-placeholder reveal" aria-label="Calendario para agendar consulta">
+            <p>📅 Agenda directamente en nuestro calendario</p>
+            <!-- REEMPLAZAR CON: <div class="calendly-inline-widget" data-url="TU_URL_CALENDLY"></div> -->
+            <a href="#contacto" class="btn btn--ghost btn--sm">Próximamente disponible</a>
+          </div>
+        </div>
+
+        <div class="contact__right reveal">
+          <form class="contact-form" id="contactForm" novalidate aria-label="Formulario de contacto">
+            <h3 class="contact-form__title">Cuéntanos tu proyecto</h3>
+
+            <div class="field">
+              <label for="name" class="field__label">Nombre completo <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" class="field__input" placeholder="Tu nombre" required autocomplete="name" aria-required="true" />
+              <span class="field__error" id="name-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="field">
+              <label for="email" class="field__label">Email <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" class="field__input" placeholder="tu@email.cl" required autocomplete="email" aria-required="true" />
+              <span class="field__error" id="email-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="field">
+              <label for="service" class="field__label">Tipo de proyecto</label>
+              <select id="service" name="service" class="field__input field__select">
+                <option value="">¿Qué necesitas?</option>
+                <option value="landing">Landing page</option>
+                <option value="corporativa">Web corporativa</option>
+                <option value="ecommerce">E-commerce</option>
+                <option value="portal">Portal / Plataforma</option>
+                <option value="editorial">Portal editorial con CMS</option>
+                <option value="mantencion">Mantención de web existente</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message" class="field__label">Cuéntanos más <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" class="field__input field__textarea" placeholder="¿Qué hace tu negocio? ¿Qué necesitas que haga tu web?" required rows="4" aria-required="true"></textarea>
+              <span class="field__error" id="message-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">
+              <span class="btn__text">Enviar mensaje</span>
+              <span class="btn__loader" aria-hidden="true" style="display:none">Enviando...</span>
+            </button>
+
+            <div class="form__success" id="formSuccess" role="alert" aria-live="assertive" style="display:none">
+              <span>✦</span> ¡Mensaje recibido! Te respondemos dentro de 24 horas hábiles.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#inicio" class="nav__logo" aria-label="cosmic.lab — volver al inicio">
+            <span class="logo__icon" aria-hidden="true">✦</span>
+            <span class="logo__text">cosmic<span>.lab</span></span>
+          </a>
+          <p>Plataformas web que operan, escalan y convierten. Fundado por Vanessa Méndez y Catherine Rebolledo.</p>
+          <div class="footer__social">
+            <!-- REEMPLAZAR HREF con URLs reales -->
+            <a href="#" aria-label="Instagram de cosmic.lab" rel="noopener noreferrer">Instagram</a>
+            <a href="#" aria-label="LinkedIn de cosmic.lab" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+        <nav class="footer__nav" aria-label="Navegación de pie de página">
+          <div class="footer__col">
+            <h4>Servicios</h4>
+            <ul>
+              <li><a href="#servicios">Portales editoriales</a></li>
+              <li><a href="#servicios">Webs corporativas</a></li>
+              <li><a href="#servicios">E-commerce</a></li>
+              <li><a href="#servicios">Plataformas a medida</a></li>
+              <li><a href="#servicios">Empresas regionales</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Estudio</h4>
+            <ul>
+              <li><a href="#nosotras">Quiénes somos</a></li>
+              <li><a href="#proceso">Proceso</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#precios">Precios</a></li>
+              <li><a href="#recursos">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Contacto</h4>
+            <ul>
+              <li><a href="mailto:hola@cosmiclab.cl">hola@cosmiclab.cl</a></li>
+              <li><a href="https://wa.me/56900000000" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+              <li><a href="#contacto">Agendar consulta</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2024 cosmic.lab · Todos los derechos reservados · Santiago, Chile</p>
+        <p>Diseñado y desarrollado por cosmic.lab</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== WHATSAPP FLOTANTE ========== -->
+  <a href="https://wa.me/56900000000?text=Hola%20cosmic.lab%2C%20me%20interesa%20conocer%20más%20sobre%20sus%20servicios."
+     target="_blank"
+     rel="noopener noreferrer"
+     class="whatsapp-fab"
+     aria-label="Contactar por WhatsApp"
+     title="Escribenos por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

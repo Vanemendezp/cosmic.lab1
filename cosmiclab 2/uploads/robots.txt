@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cosmiclab.cl/sitemap.xml
+
+# Bloquear archivos de sistema
+Disallow: /assets/fonts/
